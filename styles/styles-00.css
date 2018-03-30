@@ -1,0 +1,79 @@
+body {
+  font-family: "Adieu", sans-serif;
+}
+
+.container__nav {
+  list-style: none;
+  font-family: "Tranz Neue";
+  font-size: 22.5px;
+  font-weight: 100;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.img-scroll,
+.container__img-scroll {
+  position: absolute;
+}
+
+.img-scroll {
+  top: 0px;
+  transition: 1s;
+}
+
+.container__img-scroll {
+  overflow: hidden;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.grid__col-scroll {
+  position: static;
+}
+
+.grid__col-title-scroll {
+  transition: 1s;
+}
+
+.text__title {
+  font-size: 130px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s;
+  opacity: 0;
+}
+
+.text__nav {
+  opacity: 0;
+  position: absolute;
+  transition: 1s;
+}
+.text__nav-topleft {
+  top: -20px;
+}
+.text__nav-topright {
+  top: -20px;
+}
+.text__nav-bottomleft {
+  bottom: -20px;
+}
+.text__nav-bottomright {
+  bottom: -20px;
+}
+
+/*links*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255,255,255,0);
+  text-decoration: none;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}

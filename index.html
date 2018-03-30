@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>pablo di prima</title>
+  <meta name="author" content="Nathalie de Vallière" contact="nathalie.devalliere@gmail.com">
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://rawgit.com/username/username.github.io/master/global/assets/fonts/fonts.css"> -->
+  <link rel="stylesheet" href="global/styles/grid-00.css">
+  <link rel="stylesheet" href="styles/styles-00.css">
+</head>
+
+<body id="main-content">
+  <!-- erase padding issue -->
+  <!-- <section class="container__grid"> -->
+    <section class="grid__row">
+      <section class="grid__col grid__col--12 grid__col-scroll">
+        <section class="container__img container__img-scroll">
+          <img class="img-scroll img-scroll--1" src="assets/jpg/01.jpg"/>
+          <img class="img-scroll img-scroll--2" src="assets/jpg/02.jpg"/>
+          <img class="img-scroll img-scroll--3" src="assets/jpg/03.jpg"/>
+          <img class="img-scroll img-scroll--4" src="assets/jpg/04.jpg"/>
+          <img class="img-scroll img-scroll--5" src="assets/jpg/05.jpg"/>
+        </section>
+      </section>
+    </section>
+  <!-- </section> -->
+
+  <section class="container__grid">
+    <ul class="container__nav">
+      <li class="text__nav text__nav-topleft" id="selected"><a href="#">Selected</a></li>
+      <li class="text__nav text__nav-topright" id="films"><a href="#">Films</a></li>
+      <li class="text__nav text__nav-bottomleft" id="commissioned"><a href="#">Commissioned</a></li>
+      <li class="text__nav text__nav-bottomright" id="personal"><a href="#">Personal</a></li>
+    </ul>
+  </section>
+
+  <section class="container__grid container__grid-scroll">
+    <section class="grid__row">
+      <section class="grid__col grid__col--12 grid__col-title-scroll">
+        <h1 class="text__title text__title-scroll"><a href="#">Pablo &nbsp;di&nbsp; Prima</a></h1>
+      </section>
+    </section>
+  </section>
+
+  <script type="text/javascript" src="global/scripts/grid-00.js"></script>
+  <script type="text/javascript" src="scripts/scripts-01.js"></script>
+</body>
+</html>
